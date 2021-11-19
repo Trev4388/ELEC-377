@@ -1,0 +1,23 @@
+Group 122 - Lab 1
+
+Overall 10/10
+
+Documentation
+3.5/3.5
+
+Testing Docs
+3.5/3.5
+
+Code Correctness
+1.5/1.5
+
+Code Clarity
+1.5/1.5
+
+Comments: Excellent description, it could even be a bit more brief but very well done. Could also add a sentence or two about difficulties or challenges encountered.
+
+Testing: Excellent set of test cases and description. Good job describing your testing methodology, then backing up with the files.
+
+Good code commenting, one point remove the debugging print statements for the final script test.
+
+Overall very well done perfect template for future labs.

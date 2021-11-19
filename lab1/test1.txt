@@ -1,0 +1,86 @@
+Script started on Fri 08 Oct 2021 11:33:29 AM EDT
+student@ELEC377-Student:~$ cd elec377-group-122/lab1/
+student@ELEC377-Student:~/elec377-group-122/lab1$ pwd
+/home/student/elec377-group-122/lab1
+student@ELEC377-Student:~/elec377-group-122/lab1$ cd
+student@ELEC377-Student:~$ pwd
+/home/student
+student@ELEC377-Student:~$ cd elec377-testfail/
+bash: cd: elec377-testfail/: No such file or directory
+student@ELEC377-Student:~$ pwd
+/home/student
+student@ELEC377-Student:~$ cd 377   elec377-group-122/lab1/
+student@ELEC377-Student:~/elec377-group-122/lab1$ pwd
+/home/student/elec377-group-122/lab1
+student@ELEC377-Student:~/elec377-group-122/lab1$ ls
+Makefile  shell  shell.c  test
+student@ELEC377-Student:~/elec377-group-122/lab1$ ls -a
+.  ..  .hidden	Makefile  shell  shell.c  test
+student@ELEC377-Student:~/elec377-group-122/lab1$ s gitpull     pull
+Enter passphrase for key '/home/student/.ssh/id_rsa': 
+Already up-to-date.
+student@ELEC377-Student:~/elec377-group-122/lab1$ make
+make: `shell' is up to date.
+student@ELEC377-Student:~/elec377-group-122/lab1$ shell
+%> hello world
+2
+0: hello
+1: world
+Error: Command not found!
+%> love       377
+2
+0: love
+1: 377
+Error: Command not found!
+%> pwd
+1
+0: pwd
+/home/student/elec377-group-122/lab1
+%> cd
+1
+0: cd
+%> pwd
+1
+0: pwd
+/home/student
+%> cd /home/student/elec377-group-122/lab1/
+2
+0: cd
+1: /home/student/elec377-group-122/lab1/
+%> pwd
+1
+0: pwd
+/home/student/elec377-group-122/lab1
+%> cd elec377-testfail/
+2
+0: cd
+1: elec377-testfail/
+Error, current directory could not be changed
+%> pwd
+1
+0: pwd
+/home/student/elec377-group-122/lab1
+%> ls
+1
+0: ls
+Makefile
+shell.c
+shell
+test
+%> ls -a
+2
+0: ls
+1: -a
+.
+..
+Makefile
+shell.c
+shell
+test
+.hidden
+%> exit
+1
+0: exit
+student@ELEC377-Student:~/elec377-group-122/lab1$ cd
+student@ELEC377-Student:~$ exit
+Script done on Fri 08 Oct 2021 11:37:41 AM EDT
